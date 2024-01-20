@@ -1,4 +1,4 @@
-import Todo from './Todo'
+import Todo from '../Todo/Todo'
 import styles from './TodoList.module.scss'
 
 const TodoList = ({ todos, deleteTodo, toggleTodo }) => {

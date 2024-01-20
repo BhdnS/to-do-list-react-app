@@ -1,5 +1,5 @@
 import { RiDeleteBin2Line, RiRefreshLine } from 'react-icons/ri'
-import Button from '../UI/Button'
+import Button from '../../UI/Button/Button'
 import styles from './TodosActions.module.scss'
 
 const TodosActions = ({ resetTodo, deleteTodo, completedTodosExist }) => {

@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import { v4 as uuidv4 } from 'uuid'
 import './App.scss'
-import TodoForm from './components/Todos/TodoForm'
-import TodoList from './components/Todos/TodoList'
-import TodosActions from './components/Todos/TodosActions'
+import TodosActions from './components/Todos/TodoActions/TodosActions'
+import TodoForm from './components/Todos/TodoForm/TodoForm'
+import TodoList from './components/Todos/TodoList/TodoList'
 
 function App() {
   const [todos, setTodos] = useState([])
