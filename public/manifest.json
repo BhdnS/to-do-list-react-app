@@ -1,0 +1,44 @@
+{
+  "short_name": "ToDo",
+  "name": "ToDo List App",
+  "icons": [
+    {
+      "src": "./images/favicon/favicon-16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/favicon/favicon-32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "./images/favicon/favicon-96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "./images/pwa/big-logo.png",
+      "type": "image/png",
+      "sizes": "310x310"
+    }
+  ],
+  "screenshot": [
+    {
+      "src": "./images/PWA/screenshot/desktop.png",
+      "sizes": "1920x972",
+      "type": "image/png",
+      "form_factor": "desktop"
+    },
+    {
+      "src": "./images/PWA/screenshot/mobile.png",
+      "sizes": "522x816",
+      "type": "image/png",
+      "form_factor": "handset"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
