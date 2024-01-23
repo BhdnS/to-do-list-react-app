@@ -7,6 +7,6 @@ export default defineConfig({
     react(),
     createHtmlPlugin({
       minify: true,
-    })
+    }),
   ],
 })
